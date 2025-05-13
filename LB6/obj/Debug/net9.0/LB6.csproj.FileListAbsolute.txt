@@ -12,3 +12,4 @@ D:\LB4\LB6\LB6\obj\Debug\net9.0\refint\LB6.dll
 D:\LB4\LB6\LB6\obj\Debug\net9.0\LB6.pdb
 D:\LB4\LB6\LB6\obj\Debug\net9.0\LB6.genruntimeconfig.cache
 D:\LB4\LB6\LB6\obj\Debug\net9.0\ref\LB6.dll
+D:\LB4\LB6\LB6\obj\Debug\net9.0\LB6.sourcelink.json
