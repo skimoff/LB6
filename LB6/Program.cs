@@ -22,10 +22,21 @@ class Program
 
     static void task2()
     {
-        Toy t = new Toy("bear", "Description", 3, "3-6 age", "for d");
-        Toy t1 = new Toy("Toy 1", "Description", 3, "3-6 age", "for b");
-        Console.WriteLine(t.GetHashCode());
-        Console.WriteLine(t.Equals(t1));
+        Oval oval = new Oval(2, 2);
+        Circle circle = new Circle(3);
+        Triangle triangle = new Triangle(4, 5, 6);
+        
+        GeometricFigure[] arr = new GeometricFigure[3];
+        arr[0] = oval;
+        arr[1] = circle;
+        arr[2] = triangle;
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            
+            Console.WriteLine(arr[i].Name);
+            Console.WriteLine(arr[i]);
+        }
     }
 
     static void Main(string[] args)
